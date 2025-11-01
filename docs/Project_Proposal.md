@@ -8,9 +8,12 @@
 
 ---
 
-# AI Hardware Project Proposal Template
+# AI Hardware Project Proposal
 
 ## 1. Project Title
+
+
+## Team name:
 Masters of Eng-Ai
 
 ## Team members:

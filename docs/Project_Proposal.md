@@ -11,9 +11,13 @@
 # AI Hardware Project Proposal Template
 
 ## 1. Project Title
-Name of the Team
+Masters of Eng-Ai
 
-List of students in the team
+## Team members:
+- Martha Michael
+- Yatzil Romero Rodriguez
+- Meng Xu
+
 
 Provide a clear and concise title for your project. 
 

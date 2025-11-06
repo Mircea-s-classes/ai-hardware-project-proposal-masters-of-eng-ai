@@ -10,6 +10,8 @@
 
 TinyML: Waste Sorting Visual Classifier
 
+#### [Presentation](https://docs.google.com/presentation/d/1ZxCNk8CfvOTLMQ2DKfZHajKMgD14Uccm1HQ3gBI3OfU/edit?usp=sharing)
+
 ## Team name
 
 Masters of Eng-Ai
@@ -30,7 +32,7 @@ We will use the Arduino TinyML Kit and Camera, programming in the Arduino IDE wi
 
 ## 3. Problem Definition
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Traditional waste sorting systems are often ineffective, as many people struggle to distinguish between recycling, organics, and general waste. To address this issue, we aim to provide a more accessible solution for correctly disposing and separating waste. Our approach involves developing a low-latency, efficient visual waste sorting classifier capable of identifying and sorting materials into three main categories, trash, compost, and recycle such as plastic, metal, paper, glass, non-recyclables, and discarded food.
+Traditional waste sorting systems are often ineffective, as many people struggle to distinguish between recycling, organics, and general waste. To address this issue, we aim to provide a more accessible solution for correctly disposing and separating waste. Our approach involves developing a low-latency, efficient visual waste sorting classifier capable of identifying and sorting materials into three main categories, trash, compost, and recycle such as plastic, metal, paper, glass, non-recyclables, and discarded food.
 
 Using a TinyML model and an onboard camera, we plan to build a real-time image classification system that operates directly on embedded hardware. The goal is to design and deploy a lightweight model that can accurately categorize waste relying on cloud based processing. This problem is highly relevant to AI hardware, as it tests the limits of efficiency and latency while demonstrating how AI can be both environmentally sustainable and hardware efficient for real-world edge applications.
 

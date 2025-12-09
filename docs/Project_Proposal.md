@@ -38,9 +38,9 @@ Using a TinyML model and an onboard camera, we plan to build a real-time image c
 
 ## 4. Technical Objectives
 
-• Classify waste with at least an accuracy of 85%, using unseen testing data.
+• Classify waste with at least an accuracy of 75%, using unseen testing data.
 
-• Inference latency of at most 0.5s, maintain real-time classification.
+• Inference latency of at most 1s, maintain real-time classification.
 
 • Reduce power consumption via quantization of the trained model.
 
@@ -57,15 +57,15 @@ Use the Arduino Nano 33 BLE Sense with the OV7670 VGA camera module. The camera 
 5. Refine model or dataset based on performance.
 
 **Metrics**:
-    Accuracy >= 85%
-    Latency <= 0.5s
+    Accuracy >= 75%
+    Latency <= 1 s
     Model fits with device memory limits
 
 **Validation**: Run live tests on different waste samples and record classification results for comparison with the test dataset.
 
 ## 6. Expected Deliverables
 
-A TinyML system that is able to capture, identify, and categorize waste into the correct disposal bin using real-time waste detection, with at least 85% accuracy.
+A TinyML system that is able to capture, identify, and categorize waste into the correct disposal bin using real-time waste detection, with at least 75% accuracy.
 The final report and GitHub repository will contain detailed project documentation, presentation slides, measurable goals and objectives, and user guidance on how to interact with the Waste Sorting Visual Classifier system.
 
 ## 7. Team Responsibilities

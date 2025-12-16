@@ -83,7 +83,7 @@ Edge Impulse was used to train the model, as it is a free AI development platfor
 ### 1. Data Collection
 For this project, we used the OV7675 camera module and Serial Image Capture tool to collect images of waste materials for training the classification model. We captured approximately **50 images per category** across six categories: cardboard, metal, paper, recyclable plastic, trash, and background. All collected images were saved as **30x30 grayscale PNG files** and zipped into `dataset.zip`. This dataset (filename: dataset-masters_of_eng-ai.zip) is included in our GitHub repository and contains all images needed to train the waste classification model.
 
-![alt text](<Screenshot 2025-12-16 at 3.50.24 PM.png>)
+![alt text](<serial-image-capture.png>)
 
 ### 2. Data Augmentation
 Using the `ei-image-augmentation.ipynb` Google Colab notebook (included in our repository), we augmented the collected waste images to generate more training data and to make our model robust. This notebook automatically:

@@ -83,7 +83,7 @@ Edge Impulse was used to train the model, as it is a free AI development platfor
 ### 1. Data Collection
 For this project, we used the OV7675 camera module and Serial Image Capture tool to collect images of waste materials for training the classification model. We captured approximately **50 images per category** across six categories: cardboard, metal, paper, recyclable plastic, trash, and background. All collected images were saved as **30x30 grayscale PNG files** and zipped into `dataset.zip`. This dataset (filename: dataset-masters_of_eng-ai.zip) is included in our GitHub repository and contains all images needed to train the waste classification model.
 
-![alt text](<Screenshot 2025-12-16 at 4.10.15 PM.png>)
+![alt text](images/serial-image-capture-gui.png)
 
 ### 2. Data Augmentation
 Using the `ei-image-augmentation.ipynb` Google Colab notebook (included in our repository), we augmented the collected waste images to generate more training data and to make our model robust. This notebook automatically:
@@ -154,31 +154,31 @@ The difference between the two optimization models in terms of peak RAM usage an
 
 #### Background
 Default category for when no waste is shown (e.g., blank light-colored wall)
-![alt text](<Screenshot 2025-12-16 at 3.52.07 PM.png>)
+![alt text](images/prediction-scores_background.png)
 - Accuracy: ~99.6%
 #### Cardboard
 Example: Part of a box
-![alt text](<Screenshot 2025-12-16 at 3.53.01 PM.png>)
+![alt text](images/prediction-scores_cardboard.png)
 - Accuracy: ~99.6%
 
 #### Metal
 Example: Energy drink can
-![alt text](<Screenshot 2025-12-16 at 3.53.34 PM.png>)
-- Accuracy: ~75-98%
+![alt text](images/prediction-scores_metal.png)
+- Accuracy: ~80-98%
 
 #### Paper
 Example: Printer copy paper
-![alt text](<Screenshot 2025-12-16 at 3.53.47 PM.png>)
+![alt text](images/prediction-scores_paper.png)
 - Accuracy: ~99.6%
 
 #### Recycle (Recyclable Plastic)
 Example: Water bottle
-![alt text](<Screenshot 2025-12-16 at 3.53.59 PM.png>)
+![alt text](images/prediction-scores_recyclable.png)
 - Accuracy: ~97-99%
 
 #### Trash
 Examples: Candy wrappers, granola bar wrappers
-![alt text](<Screenshot 2025-12-16 at 3.54.16 PM.png>)![alt text](<Screenshot 2025-12-16 at 3.54.28 PM.png>)
+![alt text](images/prediction-scores_trash1.png)![alt text](images/prediction-scores_trash2.png)
 - Accuracy: ~97% (after stabilization)
 
 **Note:** Some discrepancies in the accuracies for metal and trash categories are a result of the transition between background or previous object and the new object to be classified. The accuracy and detection remain steady after some time.
